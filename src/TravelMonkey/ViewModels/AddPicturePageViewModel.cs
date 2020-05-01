@@ -67,6 +67,8 @@ namespace TravelMonkey.ViewModels
 
         private async Task TakePhoto()
         {
+
+
             var result = await UserDialogs.Instance.ActionSheetAsync("What do you want to do?",
                 "Cancel", null, null, "Take photo", "Choose photo");
 
